@@ -3,6 +3,12 @@
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{titlesec}
+
+\geometry{margin=1in}
+\newcommand{\sectionbreak}{\clearpage}
+
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -16,10 +22,22 @@
 \author{Dion O'Neale}
 \begin{document}
 \maketitle
+\newpage
 \tableofcontents
+\newpage
 
 \input{01-thermodynamicsRefresher.tex}
+\input{02-probability.tex}
+\input{03-statisticalPostulates.tex}
+\input{04-hamiltonianPhaseSpace.tex}
+\input{05-molecularDynamics.tex}
 
+\input{juliettesoule.tex}
+\input{hamishjelleyman}
+\input{LillianGuo.tex}
+\input{seanrichards.tex}
+\input{eliaspaknejad.tex}
+\input{dianayu.tex}
 
 
 
